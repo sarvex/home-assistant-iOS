@@ -243,9 +243,13 @@ desc 'Setup Continous Integration'
 lane :setup_ha_ci do
   raise 'No github run number specified' unless ENV['GITHUB_RUN_NUMBER']
 
+  build_value = get_xcconfig_build_number + '.' + ENV['GITHUB_RUN_NUMBER'] # rubocop:disable Style/StringConcatenation
+
+  build_value += '.2' if ENV['XCODE_BETA'] == 'true'
+
   set_version_info(
     version: get_xcconfig_marketing_version,
-    build: get_xcconfig_build_number + '.' + ENV['GITHUB_RUN_NUMBER'] # rubocop:disable Style/StringConcatenation
+    build: build_value
   )
 
   # we only expose these keys in ci when appropriate
