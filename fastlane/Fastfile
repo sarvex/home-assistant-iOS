@@ -245,7 +245,7 @@ lane :setup_ha_ci do
 
   build_value = get_xcconfig_build_number + '.' + ENV['GITHUB_RUN_NUMBER'] # rubocop:disable Style/StringConcatenation
 
-  build_value += '.2' if ENV['XCODE_BETA'] == 'true'
+  build_value += '.13' if ENV['XCODE_BETA'] == 'true'
 
   set_version_info(
     version: get_xcconfig_marketing_version,
