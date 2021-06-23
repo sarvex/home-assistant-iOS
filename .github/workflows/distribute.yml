@@ -28,7 +28,7 @@ jobs:
         if: ${{ matrix.beta == 'beta' }}
         run: |
           echo "XCODE_BETA=true" >> $GITHUB_ENV
-          echo "DEVELOPER_DIR=/Applications/Xcode_13.app/Contents/Developer"  >> $GITHUB_ENV
+          echo "DEVELOPER_DIR=/Applications/Xcode_13.0.app/Contents/Developer"  >> $GITHUB_ENV
 
       - name: Install Brews
         run: brew bundle
