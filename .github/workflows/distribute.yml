@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         kind: [mac, ios]
-        beta: ['beta', 'not_beta']
+        beta: ['beta'] #, 'not_beta']
     steps:
       - uses: actions/checkout@v2
 
