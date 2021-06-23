@@ -269,7 +269,7 @@ lane :setup_ha_ci do
   create_keychain(
     name: keychain_name,
     password: keychain_password,
-    timeout: false,
+    lock_after_timeout: false,
     unlock: true,
     add_to_search_list: true
   )
