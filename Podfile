@@ -72,7 +72,12 @@ abstract_target 'iOS' do
     pod 'CallbackURLKit'
     pod 'ColorPickerRow', git: 'https://github.com/EurekaCommunity/ColorPickerRow', branch: 'master'
     pod 'CPDAcknowledgements', git: 'https://github.com/CocoaPods/CPDAcknowledgements', branch: 'master'
-    pod 'Eureka'
+
+    if ENV['XCODE_BETA']
+      pod 'Eureka', git: 'https://github.com/zacwest/Eureka', branch: 'fix-xcode-13-compile-error'
+    else
+      pod 'Eureka'
+    endif
 
     if ENV['XCODE_BETA']
       pod 'Firebase/Messaging', '8.1.0'
