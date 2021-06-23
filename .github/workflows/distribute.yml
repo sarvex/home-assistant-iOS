@@ -19,7 +19,7 @@ jobs:
     runs-on: macos-11
     strategy:
       matrix:
-        kind: [mac, ios]
+        kind: [ios]
         beta: ['beta'] #, 'not_beta']
     steps:
       - uses: actions/checkout@v2
