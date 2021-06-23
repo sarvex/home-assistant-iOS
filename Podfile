@@ -77,7 +77,7 @@ abstract_target 'iOS' do
       pod 'Eureka', git: 'https://github.com/zacwest/Eureka', branch: 'fix-xcode-13-compile-error'
     else
       pod 'Eureka'
-    endif
+    end
 
     if ENV['XCODE_BETA']
       pod 'Firebase/Messaging', '8.1.0'
