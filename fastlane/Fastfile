@@ -370,6 +370,7 @@ platform :ios do
       export_method: 'app-store',
       skip_package_dependencies_resolution: true,
       skip_profile_detection: true,
+      disable_xcpretty: true,
       output_directory: './build/ios',
       export_options: {
         signingStyle: 'manual',
