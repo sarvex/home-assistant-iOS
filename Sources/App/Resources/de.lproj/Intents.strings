@@ -31,7 +31,7 @@
 "Lgymq2" = "Which service?";
 "LsEMMg" = "Symbol";
 "MTPojJ" = "What is the event name?";
-"MwEpGz" = "Done";
+"MwEpGz" = "Fertig";
 "N9iJpK" = "Get Camera Image";
 "NdG9Jz" = "Renders the Home Assistant template";
 "NsbUTz" = "Camera Entity";
@@ -42,7 +42,7 @@
 "RMQY3r" = "Send location to Home Assistant";
 "RsOw3P" = "Successfully rendered template";
 "T06Fka" = "Öffnen Sie eine Seite im Frontend";
-"ULka1b" = "Actions";
+"ULka1b" = "Aktionen";
 "VP2XpM" = "Event Data";
 "X02YQ2" = "${action}";
 "X4A8Cc" = "Service Domain";
@@ -69,7 +69,7 @@
 "gePUyy" = "Location";
 "glRCfJ" = "Failed: Home Assistant is not currently reachable";
 "gv7Gg6" = "Location";
-"h1xQ53" = "Update Sensors";
+"h1xQ53" = "Sensoren aktualisieren";
 "hLFNfv" = "Failed: ${error}";
 "hsrlTY" = "Get a single still frame from a camera";
 "iMvUhs" = "Seite öffnen";
@@ -93,10 +93,10 @@
 "qayMH6" = "Call Service";
 "qzje4k" = "Failed: ${error}";
 "r32M7N" = "Failed: ${error}";
-"r6LXFe" = "Failed";
+"r6LXFe" = "Fehlgeschlagen";
 "rFSNpu" = "Done";
 "rOlW1x" = "What location do you want to send?";
-"sNFoWe" = "Which camera?";
+"sNFoWe" = "Welche Kamera?";
 "sQJAJS" = "Error";
 "sfDGvk" = "Rendered Template";
 "tycImk" = "Performs an action defined in the app";

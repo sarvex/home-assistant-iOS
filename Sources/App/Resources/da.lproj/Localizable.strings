@@ -386,7 +386,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings_details.location.background_refresh.title" = "Opdater i baggrunden";
 "settings_details.location.location_accuracy.full" = "Fuld";
 "settings_details.location.location_accuracy.reduced" = "Reduceret";
-"settings_details.location.location_accuracy.title" = "Nøjagtighed af placering";
+"settings_details.location.location_accuracy.title" = "Nøjagtighed af lokalitet";
 "settings_details.location.location_permission.always" = "Altid";
 "settings_details.location.location_permission.needs_request" = "Deaktiveret";
 "settings_details.location.location_permission.never" = "Aldrig";
@@ -407,7 +407,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings_details.location.notifications.url_scheme.title" = "URL-scheme lokalitetsnotifikationer";
 "settings_details.location.notifications.x_callback_url.title" = "X-Callback-URL lokalitetsnotifikationer";
 "settings_details.location.title" = "Lokalitet";
-"settings_details.location.update_location" = "Opdater placering";
+"settings_details.location.update_location" = "Opdater lokalitet";
 "settings_details.location.updates.background.title" = "Baggrundshentning";
 "settings_details.location.updates.footer" = "Manuelle lokalitetsopdateringer kan altid udløses";
 "settings_details.location.updates.header" = "Opdater kilder";

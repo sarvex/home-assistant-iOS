@@ -229,7 +229,7 @@ Tags funktionieren auf jedem Gerät mit Hardwareunterstützung zum Lesen von NFC
 "onboarding.permissions.motion.bullet.steps" = "Sensor für Schrittzählung";
 "onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
 "onboarding.permissions.motion.grant_description" = "Erlauben Sie die Bewegungsberechtigung, um Sensoren für Bewegungs- und Schrittzählerdaten zu erstellen.";
-"onboarding.permissions.motion.title" = "Motion & Pedometer";
+"onboarding.permissions.motion.title" = "Bewegung & Schrittzähler";
 "onboarding.permissions.notification.bullet.alert" = "Erhalte Benachrichtigungen";
 "onboarding.permissions.notification.bullet.badge" = "App Symbol aktualisieren";
 "onboarding.permissions.notification.bullet.commands" = "Senden Sie Befehle an Ihr Gerät";
