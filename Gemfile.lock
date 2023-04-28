@@ -67,7 +67,7 @@ GEM
       public_suffix
       typhoeus (~> 1.0)
     cocoapods-deintegrate (1.0.5)
-    cocoapods-downloader (1.5.1)
+    cocoapods-downloader (1.6.3)
     cocoapods-plugins (1.0.0)
       nap
     cocoapods-search (1.0.1)
@@ -155,10 +155,6 @@ GEM
       xcodeproj (>= 1.13.0, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-appicon (0.16.0)
-      json
-      mini_magick (>= 4.9.4, < 5.0.0)
-    fastlane-plugin-clean_testflight_testers (0.3.0)
     ffi (1.15.4)
     fourflusher (2.3.1)
     fuzzy_match (2.0.4)
@@ -297,13 +293,12 @@ GEM
 PLATFORMS
   x86_64-darwin-20
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   cocoapods (= 1.10.2)
   cocoapods-acknowledgements
   fastlane
-  fastlane-plugin-appicon
-  fastlane-plugin-clean_testflight_testers
   rubocop
 
 BUNDLED WITH
